@@ -28,9 +28,9 @@ public class MeucarroTeste {
 		carro03.setCombustivel("flex");
 		
 		System.out.println("carros do meu estoque: " +
-							carro01.modelo + ", " +
-							carro02.modelo + ", " +
-							carro03.modelo
+							carro01.getModelo() + ", " +
+							carro02.getModelo() + ", " +
+							carro03.getModelo()
 				);
 		
 	}
