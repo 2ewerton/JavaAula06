@@ -67,7 +67,11 @@ public class Carro {
 
 
 	public String getPlaca() {
+		if(this.placa!=null) {
 		return placa;
+		}else {
+			return "xxx1x1111";
+		}
 	}
 
 
