@@ -18,7 +18,7 @@ public class Minhaloja {
 		System.out.println("Digite o marca do seu carro: ");
 		meuCarro.setMarca(sc.nextLine());
 		
-		System.out.println("Seu carro e da marca " + meuCarro.getMarca() + "e do modelo" 
+		System.out.println("Seu carro e da marca " + meuCarro.getMarca() + " e do modelo " 
 		+ meuCarro.getModelo());
 		
 		sc.close();
