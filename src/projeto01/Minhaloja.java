@@ -1,14 +1,15 @@
 package projeto01;
-
 import java.util.Scanner;
-
-
 
 public class Minhaloja {
 
 	public static void main(String[] args) {
 		
 		Carro meuCarro = new Carro();
+		Drone meuDrone = new Drone();
+		Caminhao meuCaminhao = new Caminhao();
+		
+		meuDrone.getMarca();
 		
 		java.util.Scanner sc = new Scanner(System.in);
 		
